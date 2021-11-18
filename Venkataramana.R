@@ -1,6 +1,8 @@
 library(rvest)
 library(dplyr)
 
+##Title : Web scrapping movie title, released year of movie and movie rating from IMDB using R.
+
 link = "https://www.imdb.com/search/title/?title_type=feature&num_votes=25000,&genres=adventure&sort=user_rating,desc"
 page = read_html(link)
 
